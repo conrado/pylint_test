@@ -8,12 +8,12 @@ class Lala:
     docstring
     """
 
-    def __init__(self, laLa, lola):
-        self._laLa = laLa
+    def __init__(self, laLa, lola):  # pylint: disable=invalid-name
+        self._laLa = laLa  # pylint: disable=invalid-name
         self._lola = lola
 
     @property
-    def laLa(self):
+    def laLa(self):  # pylint: disable=invalid-name
         """
         docstring
         """
