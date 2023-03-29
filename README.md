@@ -1,10 +1,10 @@
 # reproduce
 
-still produces the expected output
+importing and no disable line also produces the expected output
 
 ```
-$ pylint a.py
+$ pylint .
 
 -------------------------------------------------------------------
-Your code has been rated at 10.00/10 (previous run: 6.25/10, +3.75)
+Your code has been rated at 10.00/10 (previous run: 10/10, +0)
 ```
